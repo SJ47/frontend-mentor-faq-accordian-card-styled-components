@@ -28,7 +28,6 @@ const GlobalStyles = createGlobalStyle`
         --box-shadow-light: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
         --radius-corner: 25px;
-
     }
 
     #root {
@@ -37,6 +36,9 @@ const GlobalStyles = createGlobalStyle`
         display: flex;
         align-items: center;
         justify-content: center;
+        min-width: 376px;
+        max-width: 1440px;
+        margin: 0 auto;
     }
 
     body {
