@@ -5,9 +5,14 @@ export const StyledCardContainer = styled.div`
     margin: 8em 1em 2em 1em;
     border-radius: var(--radius-corner);
     text-align: center;
-    /* height: 70vh; */
     padding-top: 9.4em;
     width: 375px;
     box-shadow: var(--box-shadow-light);
     padding-bottom: 4em;
+
+    @media (min-width: 776px) {
+        width: 800px;
+        justify-items: center;
+        padding-top: 2em;
+}
 `;

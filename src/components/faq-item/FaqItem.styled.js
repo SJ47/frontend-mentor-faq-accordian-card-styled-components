@@ -8,10 +8,14 @@ export const FaqItemContainer = styled.div`
     width: 80%;
     margin: 0 auto;
     color: var(--quaternary-color-text);
-    /* display: flex;
-    flex-direction: row; */
     align-items: center;
     justify-content: space-between;
+    
+
+    @media (min-width: 776px) {
+        margin-left: 35em;
+        width: 300px;
+    }
 
     &:hover {
         color: orange;
@@ -19,7 +23,6 @@ export const FaqItemContainer = styled.div`
     }
 
     &:hover.active {
-        color: pink;
         cursor: pointer;
     }
 

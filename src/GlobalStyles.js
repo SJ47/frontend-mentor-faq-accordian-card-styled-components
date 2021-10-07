@@ -28,19 +28,15 @@ const GlobalStyles = createGlobalStyle`
         --box-shadow-light: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
         --radius-corner: 25px;
+
     }
 
     #root {
-        /* max-width: 1400px; */
-        /* min-width: 375px; */
         height: 100vh;
-        /* height: auto; */
         font-family: var(--ff-primary);
         display: flex;
         align-items: center;
         justify-content: center;
-        /* @media (min-width: 376px) {
-        } */
     }
 
     body {
@@ -53,6 +49,11 @@ const GlobalStyles = createGlobalStyle`
         font-size: 2rem;
         margin-bottom: .25em;
         margin-top: .4em;
+        
+        @media (min-width: 776px) {
+            text-align: center;
+            padding-left: 5.5em;
+        }
     }
 
     /* activate toggle */
@@ -72,7 +73,7 @@ const GlobalStyles = createGlobalStyle`
     }
     .answer_wrapper.open {
         height: 75px;
-        color: var(--primary-color-text);
+        color: var(--quaternary-color-text);
     }
 `;
 

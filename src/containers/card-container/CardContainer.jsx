@@ -7,7 +7,6 @@ const CardContainer = () => {
     const [clicked, setClicked] = useState(false);
 
     const handleFaqItemClicked = (id) => {
-        // console.log("Clicked", id);
         if (clicked === id) {
             return setClicked(null);
         }
@@ -16,8 +15,8 @@ const CardContainer = () => {
 
     return (
         <StyledCardContainer>
-            <Logo />
             <h1>FAQ</h1>
+            <Logo />
             <FaqList
                 handleFaqItemClicked={handleFaqItemClicked}
                 clicked={clicked}
