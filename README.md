@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Frontend Mentor](https://)
+-   Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/faq-accordian-card-using-react-styled-components-js-htmlcss--2EJGdN_c)
 -   Live Site URL: [FAQ Accordian Card](https://faq-accordian-card.scottjohnston.dev)
 
 ## My process
